@@ -1,0 +1,22 @@
+# YOLOv5 🚀 by Ultralytics, GPL-3.0 license
+# COCO128 dataset https://www.kaggle.com/ultralytics/coco128 (first 128 images from COCO train2017) by Ultralytics
+# Example usage: python train.py --data coco129.yaml
+# parent
+# ├── yolov5
+# └── datasets
+#     └── coco129  ← downloads here (7 MB)
+
+
+train: "E:/paperCode/yolov5-master/datasets/coco128/images/train"
+# train images (relative to 'path') 128 images
+val: "E:/paperCode/yolov5-master/datasets/coco128/images/val"
+# val images (relative to 'path') 128 images
+
+
+
+# Classes
+nc: 36  # number of classes
+names: ['asm', 'bskl_p', 'btxl', 'jizhua_dz', 'bskl_p', 'milk', 'milk_lzy', 'mocha', 'whh', 'wsz', 'xuebi_g', 'yb_s', 'yb_m', 'yjh', 'bskl_g', 'ls_red', 'ls_cyan', 'ls_green', 'xb_m', 'xb_s', 'jjnm_m', 'nfsq', 'lc', 'mnd_orange', 'earphone_yw', 'jihaobi_yw', 'dz_yw', 'xuanmai_yw', 'yaoshi_yw', 'yibao_yw', 'dz_yw', 'mxbc_yw', 'np_yw', 'sj_yw', 'ys_yw', 'np_yw']  # class names
+
+
+
